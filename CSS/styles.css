@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #333;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+h2{
+	font-size: 25px;
+	font-weight: 300px;
+	margin: 10px;
+}
+h2 span{
+	font-size: 30px;
+}
+
+p{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+i{
+	font-size: 25px;
+	font-weight: 300px;
+	margin: 10px;	
+}
+a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+.container{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+}
+
+.container > section{
+	height: 210px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-size: 100% 100%;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	box-shadow: 0px -2px 5px 5px #FA8320;
+
+	border: 2px solid #FA8320;
+}
+.container > section:hover{
+	cursor: pointer;
+	opacity: 0.7;
+	transform: scale(0.98);
+}
+
+.container > div{
+	height: 210px;
+	background-size: cover;
+	background-attachment: fixed;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	box-shadow: 0px -2px 5px #FA8320;
+}
+
+.container > div:hover{
+	cursor: pointer;
+	opacity: 0.7;
+	transform: scale(0.98);
+}
+
+.container > div:nth-child(1){
+	grid-column: 1 / span 2;
+}
+
+.container > div:nth-child(6){
+	grid-column: 3 / span 2;
+}
+
+.container > div:nth-child(9){
+	grid-column: 3 / span 2;
+}
+
+.container > div:nth-child(10){
+	grid-column: 1 / span 2;
+}
+
+.bg-1{
+	background-image: url('/IMG/pexels-outdoor-bball-court.jpg');
+}
+
+.bg-2{
+	background-image: url('/IMG/pexels-bball-1.jpg');
+}
+
+.bg-3{
+	background-image: url('/IMG/pexels-bball-7.jpeg');
+}
+
+.bg-4{
+	background-image: url('/IMG/pexels-bball-2.jpg');
+}
+
+.bg-custom{
+	background-image: url('/IMG/pexels-bball-character.jpg');
+
+}
+
+
+@media (max-width: 900px){
+	.container{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-gap: 10px;
+}
+.container > div:first-child{
+	grid-column: 1 / span 12;
+}
+.container > div:nth-child(2){
+	grid-column: 1 / span 12;
+}
+.container > section{
+	grid-column: 1 / span 12;
+	grid-row: 1 / span 1;
+}
+.container > div:nth-child(4){
+	grid-column: 1 / span 12;
+}
+.container > div:nth-child(5){
+	grid-column: 1 / span 12;
+}
+.container > div:nth-child(6){
+	grid-column: 1 / span 12;
+}
+.container > div:nth-child(7){
+	grid-column: 1 / span 12;
+}
+.container > div:nth-child(8){
+	grid-column: 1 / span 12;
+}
+.container > div:nth-child(9){
+	grid-column: 1 / span 12;
+}
+.container > div:nth-child(10){
+	grid-column: 1 / span 12;
+}
+.container > div:nth-child(11){
+	grid-column: 1 / span 12;
+}
+.container > div:nth-child(12){
+	grid-column: 1 / span 12;
+}
+
+
+
