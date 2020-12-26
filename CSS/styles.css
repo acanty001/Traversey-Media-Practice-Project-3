@@ -99,23 +99,23 @@ a{
 }
 
 .bg-1{
-	background-image: url('/IMG/pexels-outdoor-bball-court.jpg');
+	background-image: url('IMG/pexels-outdoor-bball-court.jpg');
 }
 
 .bg-2{
-	background-image: url('/IMG/pexels-bball-1.jpg');
+	background-image: url('IMG/pexels-bball-1.jpg');
 }
 
 .bg-3{
-	background-image: url('/IMG/pexels-bball-7.jpeg');
+	background-image: url('IMG/pexels-bball-7.jpeg');
 }
 
 .bg-4{
-	background-image: url('/IMG/pexels-bball-2.jpg');
+	background-image: url('IMG/pexels-bball-2.jpg');
 }
 
 .bg-custom{
-	background-image: url('/IMG/pexels-bball-character.jpg');
+	background-image: url('IMG/pexels-bball-character.jpg');
 
 }
 
